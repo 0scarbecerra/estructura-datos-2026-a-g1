@@ -1,0 +1,3 @@
+El código define una clase Nodo que actúa como un contenedor con dos espacios: uno para el nombre del estudiante y otro para el enlace (puntero) al siguiente. La estructura es dinámica porque cada vez que el usuario ingresa un dato, el programa usa la instrucción new para reservar un pequeño bloque de memoria RAM justo en ese instante, conectándolo al nodo anterior.
+
+Para gestionar la lista, el programa usa un puntero cabeza que siempre marca el inicio y un puntero temporal que sirve para "enganchar" el nuevo nodo al final de la cadena. Al terminar, el último nodo apunta a null, lo que le indica al ciclo de lectura que la lista ha finalizado.
